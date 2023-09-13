@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: ms-discovery
+
+server:
+  port: 8760 #8761
+
+eureka:
+#  client:
+#    fetch-registry: false
+#    register-with-eureka: false
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    client:
+      fetch-registry: false
+      register-with-eureka: false
+      healthcheck:
+        enabled: true
+      service-url:
+        defaultZone: http://localhost:8761/eureka
+
+  logging:
+    level:
+      org.springframework.security: DEBUG
