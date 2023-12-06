@@ -86,7 +86,7 @@
         "containerId": "6da62a17-9752-4f07-957a-32e7b25ded15",
         "attributes": {}
       },
-      {
+      { 
         "id": "baecc30e-ccee-4e99-b65a-8f87c069edb0",
         "name": "uma_authorization",
         "description": "${role_uma_authorization}",
